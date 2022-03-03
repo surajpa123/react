@@ -2,8 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const age = 22
-  const name = "Suraj"
   const os = ["Android","Blackberry","iPhone","Windows Phone"];
   const manu = ["Samsung","HTC","Micromax","Apple"];
   return (
