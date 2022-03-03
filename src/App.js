@@ -4,12 +4,19 @@ import './App.css';
 function App() {
   const age = 22
   const name = "Suraj"
-  const data = ["Google","Facebook","Amazon","HCL"]
+  const os = ["Android","Blackberry","iPhone","Windows Phone"];
+  const manu = ["Samsung","HTC","Micromax","Apple"];
   return (
     <div className="App">
-      <h1>Hello {name}, Welcome to Masai</h1>
-      <div>Your age is - {age > 10 ? "Vaild" : "Invaild"}</div>
-      <div>I worked for {data.map((e)=>(<p>{e}</p>))}</div>
+      <h1 className='os'>React Mobile OS</h1>
+      
+      <div className='system'>
+      <h1>Mobile Operating System</h1>
+      {os.map((e)=>(<ul><li>{e}</li></ul>))}</div>
+    
+      <div className='system'>
+      <h1>Mobile Manufacturers</h1>
+        {manu.map((e)=>(<ul><li>{e}</li></ul>))}</div>
     </div>
     
   );

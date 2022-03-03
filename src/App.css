@@ -1,6 +1,16 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 
+}
+.os{
+  color: blue;
+  text-align: center;
+}
+.system{
+  
+  width: 20%;
+  
+  margin: auto;
 }
 
 .App-logo {
