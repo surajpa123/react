@@ -3,23 +3,13 @@ import './App.css';
 
 function App() {
   const os = ["Android","Blackberry","iPhone","Windows Phone"];
-  const manu = ["Samsung","HTC","Micromax","Apple"];
+
   return (
-    <div className="App">
-      <h1 className='os'>React Mobile OS</h1>
-      
-      <div className='system'>
-      <h1>Mobile Operating System</h1>
-      {os.map((e)=>(<ul><li>{e}</li></ul>))}</div>
-    
-      <div className='system'>
-      <h1>Mobile Manufacturers</h1>
-        {manu.map((e)=>(<ul><li>{e}</li></ul>))}</div>
-    </div>
-    
+   <div>
+  <h1>Hello{os[0]}</h1>
+   </div>
   );
 }
-
 export default App;
 
 // const data = [
