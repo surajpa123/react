@@ -1,0 +1,49 @@
+{
+  "groceries": [
+    {
+      "title": "aaloo",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "bhaji",
+      "purchased": false,
+      "id": 2
+    },
+    {
+      "title": "paneer",
+      "purchased": false,
+      "id": 3
+    },
+    {
+      "title": "khova",
+      "purchased": false,
+      "id": 4
+    },
+    {
+      "title": "chaval",
+      "purchased": false,
+      "id": 5
+    },
+    {
+      "title": "dal",
+      "purchased": false,
+      "id": 6
+    },
+    {
+      "title": "roti",
+      "purchased": false,
+      "id": 7
+    },
+    {
+      "title": "nnm",
+      "purchased": false,
+      "id": 8
+    },
+    {
+      "title": "aloo",
+      "purchased": false,
+      "id": 9
+    }
+  ]
+}
