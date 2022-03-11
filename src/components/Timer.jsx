@@ -1,7 +1,7 @@
 import { useState } from "react"
 import React from "react"
 import {useEffect} from "react"
-export const Stopwatch = () =>{
+export const Timer = () =>{
    const [time,setTime] = React.useState(0)
    const [isrunning,setIsrunning] = React.useState(false)
    const [isstatus,setStatus] = React.useState(false)
