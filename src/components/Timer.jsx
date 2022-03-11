@@ -15,6 +15,7 @@ export const Timer = () =>{
        },[])
   
    
+       
    const handelstart = () =>{
        if(isrunning){
            return;
@@ -28,12 +29,18 @@ export const Timer = () =>{
        clearInterval(timeref.current)
        setIsrunning(false)
    }
+
+   const handelreset = ()=>{
+       clearInterval(timeref.current)
+       setTime(0)
+   }
     return (
         <>
         <h1>Stopwatch</h1>
         <h1>{time}</h1>
         <button className="start" onClick={handelstart} >Start</button>
         <button className="stop" onClick={handelstop}>Stop</button>
+        <button className="stop" onClick={handelreset}>Reset</button>
         </>
     )
 
