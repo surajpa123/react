@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  width: 20%;
+  height: 200px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.start{
+  padding: 10px 30px;
+  margin-right: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5%;
+}
+.start:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+.stop:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.stop{
+  padding: 10px 30px;
+  margin-right: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: red;
+  color: antiquewhite;
+  border-radius: 5%;
+  border: none;
 }
 
 .App-logo {

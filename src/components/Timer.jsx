@@ -32,8 +32,8 @@ export const Timer = () =>{
         <>
         <h1>Stopwatch</h1>
         <h1>{time}</h1>
-        <button onClick={handelstart} >Start</button>
-        <button onClick={handelstop}>Stop</button>
+        <button className="start" onClick={handelstart} >Start</button>
+        <button className="stop" onClick={handelstop}>Stop</button>
         </>
     )
 
