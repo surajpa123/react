@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "Name": "ajaj",
+      "Age": "",
+      "Address": "",
+      "Department": "",
+      "Salary": "",
+      "MaritalStatus": "",
+      "age": "89",
+      "address": "anan",
+      "department": "ana",
+      "salary": "9000",
+      "preferredTenants": "on",
+      "id": 1
+    },
+    {
+      "Name": "suraj",
+      "Age": "",
+      "Address": "",
+      "Department": "",
+      "Salary": "",
+      "MaritalStatus": "",
+      "age": "89",
+      "address": "bajarang",
+      "department": "software",
+      "salary": "900000",
+      "id": 2
+    },
+    {
+      "Name": "sueaj",
+      "Age": "",
+      "Address": "",
+      "Department": "",
+      "Salary": "",
+      "MaritalStatus": "",
+      "age": "89",
+      "address": "bajajaj",
+      "department": "ana",
+      "salary": "9090",
+      "preferredTenants": "on",
+      "id": 3
+    },
+    {
+      "Name": "acgacg",
+      "Age": "",
+      "Address": "",
+      "Department": "",
+      "Salary": "",
+      "MaritalStatus": "",
+      "age": "87",
+      "address": "rewa",
+      "department": "ana",
+      "salary": "9000",
+      "id": 4
+    }
+  ]
+}
